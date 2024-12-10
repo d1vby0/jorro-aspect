@@ -1,0 +1,22 @@
+{
+  "name": "jorro/aspect",
+  "description": "The Jorro Framework Aspect package.",
+  "homepage": "https://github.com/d1vby0/jorro",
+  "license": "MIT",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "d1vby0"
+    }
+  ],
+  "require": {
+    "php": "^8.4",
+    "psr/container": "*",
+    "jorro/reflective": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jorro\\Aspect\\": "src/"
+    }
+  }
+}
